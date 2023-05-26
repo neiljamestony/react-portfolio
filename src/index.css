@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Poppins;
+}
+
+nav {
+  text-align: right;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  background-color: #211a40;
+  margin-top: -0.8%;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 20px;
+  font-weight: bold;
+  color: #fff;
+}
