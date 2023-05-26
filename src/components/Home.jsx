@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import avatarIcon from '../assets/img/avatar.png';
 import linkedIn from '../assets/img/linkedIn.png';
 import github from '../assets/img/github.png';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import {
   MyName,
   MyIconHolder,
@@ -10,7 +10,7 @@ import {
   SocialIconContainer,
   HomeMainContainer,
   HomeSubContainer,
-  TypedContainer,
+  // TypedContainer,
 } from '../assets/css/main';
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
       <HomeSubContainer>
         <MyIconHolder src={avatarIcon} alt='myIcon' height={150} />
         <MyName>Neil James</MyName>
-        <TypedContainer>
+        {/* <TypedContainer>
           <Typed
             strings={[
               `I'm a Software Engineer 👋`,
@@ -30,7 +30,7 @@ export default function Home() {
             typeSpeed={60}
             loop
           />
-        </TypedContainer>
+        </TypedContainer> */}
         <SocialIconContainer>
           <a href='https://www.linkedin.com/in/neil-james-tony-perdigon-631422207/'>
             <SocialIconHolder src={linkedIn} alt='linkedIn' height={30} />
