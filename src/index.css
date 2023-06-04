@@ -1,9 +1,23 @@
+/*
+  COLOR PALLETE
+  #011f4b - MAIN BACKGROUND COLOR
+  #005b96 - GREETING COLOR
+  #b3cde0 - NAME COLOR
+  #03396c - OTHERS
+  #6497b1 - OTHERS
+  #4fe0b6 - OTHERS
+  #15CDCA - OTHERS
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   margin: 0;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
+  padding: 0;
   font-family: Poppins;
+  margin: 0 18% 0 18%;
+  background-color: #011f4b;
 }
 
 nav {
@@ -19,4 +33,161 @@ nav li {
   padding: 20px;
   font-weight: bold;
   color: #fff;
+}
+
+p {
+  color: #6497b1;
+}
+
+.greet {
+  color: #005b96;
+  font-size: 18px;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+}
+
+.project-item-sub-container {
+  display: flex;
+}
+
+.project-item-padding {
+  padding: 10px;
+}
+
+.project-header-container {
+  display: flex;
+  gap: 10px;
+}
+
+.experience {
+  min-height: 50vh;
+  width: 100%;
+}
+
+.projects {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.project-item {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.experience-title,
+.projects-title {
+  padding-top: 40px !important;
+  font-size: 32px;
+  color: #6497b1;
+  font-family: Poppins;
+  font-weight: bolder;
+}
+.experience-content,
+.projects-content {
+  margin-top: 40px;
+  padding: 10px 10px 40px 10px;
+}
+
+.experience-duration,
+.experience-position {
+  color: #005b96;
+  font-weight: bolder;
+}
+.experience-location,
+.project-name {
+  color: #b3cde0;
+  font-weight: bolder;
+}
+
+.project-description {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #6497b1;
+}
+
+.experience-job-description {
+  color: #6497b1;
+  padding: 10px;
+}
+
+.myName {
+  color: #b3cde0;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+.tech-container {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.tech {
+  padding: 10px;
+  background-color: rgba(21, 205, 202, 0.3);
+  color: #4fe0b6;
+  font-size: 15px;
+  border-radius: 20px;
+  max-width: 150px;
+  font-family: Poppins;
+}
+
+.myMotto {
+  color: #6497b1;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.current-work-location {
+  color: #b3cde0;
+}
+
+.parent-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container {
+  width: 100%;
+  flex-grow: 1;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .parent-container {
+    display: block;
+    height: 100vh;
+  }
+  .left-container {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+  }
 }

@@ -1,12 +1,5 @@
 import styled from 'styled-components';
 import AvatarIcon from '../img/me2.png';
-export const HomeMainContainer = styled.div({
-  backgroundColor: '#2e264f',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  height: '100vh',
-});
 
 export const HomeSubContainer = styled.div({
   width: '50%',
@@ -126,15 +119,14 @@ export const AboutContainer = styled.div({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '100vh',
-  backgroundColor: '#2e264f',
+  // height: '100vh',
+  // backgroundColor: '#2e264f',
 });
 
 export const AboutSubContainer = styled.div({
-  height: '60%',
   display: 'block',
   padding: 10,
-  margin: '0 18% 0 18%',
+  // margin: '0 18% 0 18%',
 });
 
 export const AboutTitle = styled.div({
@@ -142,7 +134,7 @@ export const AboutTitle = styled.div({
   fontWeight: 'bolder',
   color: '#fff',
   fontFamily: 'Poppins',
-  // marginBottom: 50,
+  marginBottom: 20,
 });
 
 export const AboutContentContainer = styled.div({
@@ -179,7 +171,6 @@ export const AboutMeContainer = styled.div({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  gap: 10,
 });
 
 export const AboutMeContent = styled.div({
@@ -193,7 +184,7 @@ export const AboutMeContent = styled.div({
 
 export const ServiceContainer = styled.div({
   height: '100vh',
-  backgroundColor: '#2e264f',
+  // backgroundColor: '#2e264f',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -203,7 +194,7 @@ export const ServiceSubContainer = styled.div({
   display: 'block',
   height: '50%',
   width: '70%',
-  margin: '0 18% 0 18%',
+  // margin: '0 18% 0 18%',
   padding: 10,
 });
 
@@ -250,7 +241,7 @@ export const ExperienceSubContainer = styled.div({
   display: 'block',
   height: '70%',
   width: '70%',
-  margin: '0 18% 0 18%',
+  // margin: '0 18% 0 18%',
   padding: 10,
 });
 
@@ -311,4 +302,33 @@ export const ExperienceItemContainer = styled.div({
   marginTop: 15,
   height: 115,
   padding: 10,
+});
+
+export const ProjectItemContainer = styled.div({
+  height: 400,
+  width: 400,
+  backgroundColor: '#272042',
+  borderRadius: 50,
+});
+
+export const ProjectContainer = styled.div({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  width: '100%',
+  gap: 20,
+  marginTop: 10,
+});
+
+export const ViewButton = styled.button({
+  backgroundColor: '#6C6CE5',
+  fontSize: 15,
+  color: '#fff',
+  borderRadius: 40,
+  fontFamily: 'Poppins',
+  fontWeight: 'bolder',
+  padding: 15,
+  border: 'none',
+  width: '60%',
+  cursor: 'pointer',
 });

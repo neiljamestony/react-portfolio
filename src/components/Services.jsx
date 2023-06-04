@@ -1,4 +1,3 @@
-import React from 'react';
 import Service from './Service';
 import { servicesArr } from '../app/data/data';
 import {
@@ -12,7 +11,7 @@ export default function Services() {
   return (
     <ServiceContainer>
       <ServiceSubContainer>
-        <AboutTitle>Skills</AboutTitle>
+        <AboutTitle data-aos='fade-up'>Skills</AboutTitle>
         <ServiceContent>
           {servicesArr.map((srv, key) => {
             return <Service key={key} {...srv} />;

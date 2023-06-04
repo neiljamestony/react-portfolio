@@ -5,6 +5,46 @@ import ReactIcon from '../../assets/img//whiteIcons/atom.png';
 import NodeJsIcon from '../../assets/img/nodejs.svg';
 import TypescriptIcon from '../../assets/img/whiteIcons/typescript.png';
 import MongodbIcon from '../../assets/img/mongodb.svg';
+// project icons
+import Hyperion from '../../assets/img/laptop.png';
+import Attendance from '../../assets/img/immigration.png';
+import ContactApp from '../../assets/img/add-user.png';
+import QuizApp from '../../assets/img/quiz.png';
+import TodoApp from '../../assets/img/todo.png';
+import Extractor from '../../assets/img/extractor.png';
+
+export const projects = [
+  {
+    title: 'Hyperion',
+    technologies: ['PHP', 'MySQL'],
+    icon: Hyperion,
+  },
+  {
+    title: 'AMS',
+    technologies: ['Laravel', 'MySQL'],
+    icon: Attendance,
+  },
+  {
+    title: 'Contact App',
+    technologies: ['React', 'NodeJS', 'MongoDB'],
+    icon: ContactApp,
+  },
+  {
+    title: 'Quiz App',
+    technologies: ['React', 'Typescript', 'Redux'],
+    icon: QuizApp,
+  },
+  {
+    title: 'Todo App',
+    technologies: ['React', 'NodeJS', 'Redux', 'ExpressJS', 'MongoDB'],
+    icon: TodoApp,
+  },
+  {
+    title: 'Extractor',
+    technologies: ['React', 'Tesseract'],
+    icon: Extractor,
+  },
+];
 
 export const servicesArr = [
   {
