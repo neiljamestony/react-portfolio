@@ -1,6 +1,7 @@
 import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
+import Education from './Education';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       </div>
       <div className='right-container'>
         <About />
+        <Education />
         <Experience />
         <Projects />
       </div>
