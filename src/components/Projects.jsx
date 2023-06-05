@@ -189,7 +189,7 @@ export default function Projects() {
                 <div className='project-name'>My Portfolio - v1</div>
                 <div>
                   <a
-                    href='https://github.com/neiljamestony/mern-todo-fe'
+                    href='https://neiljamestony.netlify.app/'
                     target='_blank'
                     rel='noreferrer'
                   >

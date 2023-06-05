@@ -215,3 +215,12 @@ p {
     background-color: green;
   }
 }
+@media screen and (max-width: 1920px) {
+  .project-item-sub-container {
+    display: block;
+  }
+  .project-item-sub-container > .project-item-padding > img {
+    display: block;
+    margin: 0 auto;
+  }
+}
