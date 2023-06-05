@@ -177,6 +177,26 @@ p {
   color: #b3cde0;
 }
 
+.download-button-container {
+  padding-top: 30px;
+}
+
+.download-button {
+  padding: 20px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #b3cde0;
+}
+
+.download-button:hover {
+  background-color: #b3cde0;
+  color: #03396c;
+}
+
 .parent-container {
   display: flex;
   height: 100vh;

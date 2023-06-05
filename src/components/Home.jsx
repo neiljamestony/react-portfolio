@@ -4,6 +4,12 @@ import Projects from './Projects';
 import Education from './Education';
 
 export default function Home() {
+  const handleDownload = () => {
+    const fileLink =
+      'https://drive.google.com/u/0/uc?id=1tl6dA9vVnPFxmEwnvvnIsQ0ZZZxFkIR3&export=download';
+    window.open(fileLink, '_blank');
+  };
+
   return (
     <div className='parent-container'>
       <div className='left-container'>
@@ -27,6 +33,15 @@ export default function Home() {
               Accenture Philippines Inc.{' '}
             </b>
           </p>
+          <div className='download-button-container'>
+            <button
+              className='download-button'
+              type='button'
+              onClick={handleDownload}
+            >
+              DOWNLOAD CV
+            </button>
+          </div>
         </div>
       </div>
       <div className='right-container'>

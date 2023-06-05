@@ -198,8 +198,8 @@ export default function Projects() {
                 </div>
               </div>
               <div className='project-description'>
-                my summary of work experience, educational background, personal
-                projects information.
+                my summary of work experiences, educational backgrounds,
+                personal projects information.
               </div>
             </div>
           </div>

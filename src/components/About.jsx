@@ -13,11 +13,5 @@ AOS.init({
 });
 
 export default function About() {
-  // const handleDownload = () => {
-  //   const fileLink =
-  //     'https://drive.google.com/u/0/uc?id=1tl6dA9vVnPFxmEwnvvnIsQ0ZZZxFkIR3&export=download';
-  //   window.open(fileLink, '_blank');
-  // };
-
   return <div className='about' />;
 }

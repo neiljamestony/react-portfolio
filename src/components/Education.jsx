@@ -5,8 +5,8 @@ export default function Education() {
       <div className='education-content'>
         <div className='education-item'>
           <div className='school-name'>
-            ST. CLARE COLLEGE OF CALOOCAN{' '}
             <div className='education-duration'>2015 - 2019</div>
+            ST. CLARE COLLEGE OF CALOOCAN{' '}
           </div>
           <div className='school-degree'>
             Bachelor or Science in Computer Science
@@ -14,15 +14,15 @@ export default function Education() {
         </div>
         <div className='education-item'>
           <div className='school-name'>
-            CAMARIN HIGH SCHOOL{' '}
             <div className='education-duration'>2011 - 2015</div>
+            CAMARIN HIGH SCHOOL{' '}
           </div>
           <div className='school-degree'>Secondary School</div>
         </div>
         <div className='education-item'>
           <div className='school-name'>
-            CAMARIN ELEMENTARY SCHOOL{' '}
             <div className='education-duration'>2005 - 2011</div>
+            CAMARIN ELEMENTARY SCHOOL{' '}
           </div>
           <div className='school-degree'>Primary School</div>
         </div>
