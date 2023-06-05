@@ -21,7 +21,7 @@ export default function Home() {
           <div className='myName'>Neil James Tony Perdigon</div>
           <div className='myMotto'>I build things for web.</div>
           <p>
-            {`I am Neil James Tony Perdigon, Software Engineer from Metro
+            {`I am Software Engineer from Metro
                 Manila, Philippines 📍. I'm a self-taught web developer with 4
                 years of experience in the field. I have a true passion for
                 creating innovative and user-friendly websites. Currently, I'm

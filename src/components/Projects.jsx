@@ -176,6 +176,7 @@ export default function Projects() {
             <div className='tech'>React JS</div>
             <div className='tech'>Styled Components</div>
             <div className='tech'>NodeJS</div>
+            <div className='tech'>ExpressJS</div>
             <div className='tech'>MongoDB</div>
           </div>
         </div>
