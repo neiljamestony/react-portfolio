@@ -51,6 +51,21 @@ p {
   width: 100%;
 }
 
+.contacts {
+  height: 100vh;
+  width: 100%;
+}
+
+.social-media {
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-media > a > img:hover {
+  transform: rotate(5deg);
+}
+
 .project-item-sub-container {
   display: flex;
 }
