@@ -1,7 +1,11 @@
+// COMPONENTS
 import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
 import Education from './Education';
+import Testimonials from './Testimonials';
+
+// ICONS
 import LinkedIn from '../assets/img/linkedin-logo.png';
 import GithubIcon from '../assets/img/github-sign.png';
 import InstagramIcon from '../assets/img/instagram.png';
@@ -75,6 +79,7 @@ export default function Home() {
         <Education />
         <Experience />
         <Projects />
+        <Testimonials />
       </div>
     </div>
   );

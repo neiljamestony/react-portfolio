@@ -1,33 +1,30 @@
-import React from 'react';
-import { ExperienceItemContainer } from '../assets/css/main';
-export default function ExperienceItem({ year, bldgName, profession, level }) {
+/* eslint-disable react/prop-types */
+import PHIcon from '../assets/img/philippines.png';
+export default function ExperienceItem({
+  duration,
+  location,
+  position,
+  jd,
+  techs,
+}) {
   return (
-    <ExperienceItemContainer>
-      <div
-        style={{
-          marginTop: level === 'Tertiary' ? 10 : level === 'Primary' && -10,
-          color: '#8B88B1',
-          fontSize: 14,
-          fontFamily: 'Poppins',
-        }}
-      >
-        {year}
+    <div className='experience-content'>
+      <div className='experience-duration'>{duration}</div>
+      <div className='experience-location'>
+        {location}
+        <img src={PHIcon} alt='ph-icons' height={20} />
       </div>
-      <div style={{ fontSize: 20, color: '#fff', fontWeight: 'bolder' }}>
-        {profession}
+      <div className='experience-position'>{position}</div>
+      <div className='experience-job-description'>{jd}</div>
+      <div className='tech-container'>
+        {techs?.map((tech, key) => {
+          return (
+            <div className='tech' key={key}>
+              {tech}
+            </div>
+          );
+        })}
       </div>
-      <div style={{ fontSize: 20, color: '#fff', fontWeight: 'bolder' }}>
-        {profession === '' && level}
-      </div>
-      <div
-        style={{
-          marginTop: 15,
-          fontSize: 16,
-          color: '#fff',
-        }}
-      >
-        {bldgName}
-      </div>
-    </ExperienceItemContainer>
+    </div>
   );
 }
