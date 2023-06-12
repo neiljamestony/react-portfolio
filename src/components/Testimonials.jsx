@@ -1,16 +1,18 @@
 import { testimonials } from '../app/data';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Pagination, A11y } from 'swiper';
+import SwiperCore, { Pagination, A11y, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+SwiperCore.use([Autoplay]);
+
 export default function Testimonials() {
   return (
     <div className='testimonials'>
-      <div className='testimonials-header'>Testimonials</div>
+      <div className='testimonials-title'>Testimonials</div>
       <div className='testimonials-content'>
         <Swiper
           modules={[Pagination, A11y]}
