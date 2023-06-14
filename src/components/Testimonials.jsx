@@ -51,7 +51,7 @@ export default function Testimonials() {
                     >
                       <div className='tech'>{data.pstn}</div>
                     </div>
-                    <div style={{ fontSize: 14, padding: 10 }}>
+                    <div className='feedback'>
                       <p>{`"${data.fb}"`}</p>
                     </div>
                   </div>

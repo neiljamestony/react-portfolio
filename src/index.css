@@ -36,6 +36,12 @@ p {
   color: #6497b1;
 }
 
+.feedback {
+  font-size: 14px;
+  padding: 10px;
+  text-align: justify;
+}
+
 .greet {
   color: #005b96;
   font-size: 18px;
