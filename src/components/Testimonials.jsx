@@ -27,28 +27,16 @@ export default function Testimonials() {
               <SwiperSlide key={key}>
                 <div className='testimonial-item'>
                   <div className='testimonial-item-sub-content'>
-                    <div
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                      }}
-                    >
+                    <div className='testimonial-header-container'>
                       <img
+                        className='testimonial-img'
                         src={data.icon}
                         alt='alt-img'
                         height={100}
-                        style={{ borderRadius: '50%', marginTop: 10 }}
                       />
                     </div>
                     <div className='testimonial-name'>{data.name}</div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                      }}
-                    >
+                    <div className='testimonial-header-container'>
                       <div className='tech'>{data.pstn}</div>
                     </div>
                     <div className='feedback'>
