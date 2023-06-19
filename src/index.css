@@ -389,9 +389,6 @@ p {
   .testimonial-item-sub-content {
     height: 100% !important;
   }
-}
-/* LAPTOP DEVICE */
-@media screen and (max-width: 1919px) {
   .project-item-sub-container {
     display: block;
   }
@@ -401,5 +398,113 @@ p {
   }
   .testimonial-item-sub-content {
     height: 400px;
+  }
+}
+/* LAPTOP DEVICE */
+@media (min-width: 1025px) and (max-width: 1919px) {
+  .project-item-sub-container {
+    display: block;
+  }
+  .project-item-sub-container > .project-item-padding > img {
+    display: block;
+    margin: 0 auto;
+  }
+  .testimonial-item-sub-content {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project-item-sub-container {
+    display: block;
+  }
+  .project-item-sub-container > .project-item-padding > img {
+    display: block;
+    margin: 0 auto;
+  }
+  .testimonial-item-sub-content {
+    height: 400px;
+  }
+  .parent-container {
+    display: block;
+    height: 100%;
+  }
+  .right-container {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .about {
+    display: none;
+  }
+
+  .left-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px 0 0 0;
+  }
+
+  .left-container > div > p {
+    text-align: justify;
+  }
+
+  .left-container > div > .download-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-button {
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .education-title,
+  .experience-title,
+  .projects-title,
+  .testimonials-title {
+    padding-top: 40px !important;
+    font-size: 25px;
+  }
+  .education-duration,
+  .experience-duration {
+    font-size: 15px;
+  }
+  .school-name {
+    font-size: 25px;
+  }
+  .school-degree {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .education-content,
+  .experience-content {
+    padding: 10px 10px 20px 10px;
+  }
+  .experience-job-description {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .testimonials {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .project-description {
+    text-align: justify;
+  }
+  .testimonial-item {
+    padding-bottom: 40px;
+  }
+  .testimonial-item-sub-content {
+    height: 100% !important;
   }
 }
