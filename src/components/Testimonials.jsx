@@ -12,7 +12,7 @@ SwiperCore.use([Autoplay]);
 export default function Testimonials() {
   return (
     <div className='testimonials'>
-      <div className='testimonials-title'>Testimonials</div>
+      <div className='testimonials-title'>TESTIMONIALS</div>
       <div className='testimonials-content'>
         <Swiper
           modules={[Pagination, A11y]}
