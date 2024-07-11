@@ -73,7 +73,7 @@ export const projects_data = [
   {
     icon: TodoApp,
     projectName: 'Todo Application',
-    link: `https://github.com/neiljamestony/mern-todo-fe`,
+    link: `https://mern-todo-fe.vercel.app/`,
     pd: `a simple todo application with user authentication, create,
         read, update, delete and search functionality of todo.`,
     techs: ['ReactJS', 'Styled Components', 'NodeJS', 'ExpressJS', 'MongoDB'],
